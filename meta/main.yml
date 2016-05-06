@@ -1,0 +1,4 @@
+dependencies:
+    - { role: ANXS.timezone }
+    - { role: Stouts.locale }
+    - { role: f500.vim }

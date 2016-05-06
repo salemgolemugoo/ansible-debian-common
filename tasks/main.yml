@@ -1,0 +1,2 @@
+- include: add_apt_repo.yml
+- include: install_base_soft.yml

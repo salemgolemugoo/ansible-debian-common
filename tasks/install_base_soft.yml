@@ -1,0 +1,28 @@
+- name: Install base soft
+  apt: name={{ item }} state=latest update_cache=yes cache_valid_time=86400
+  with_items:
+    - irqbalance
+    - bash-completion
+    - bash
+    - htop
+    - ntpdate
+    - iftop
+    - less
+    - mc
+    - python-keyczar # for ansible accelerate
+    - python-pycurl # for apt_repository module
+    - python-software-properties # for apt_repository module
+    - screen
+    - sudo
+    - tcpdump
+    - wget
+    - ncdu
+    - zsh
+    - sysstat
+    - curl # for devs
+    - rsync # for devs
+    - iptables-persistent
+    - mlocate
+    - ca-certificates
+    - git-core
+    - expect

@@ -1,0 +1,5 @@
+- name: Add key for repo
+  apt_key: keyserver=keyserver.ubuntu.com id=8C8CFCEA
+
+- name: Add repo
+  apt_repository: repo='deb http://apt.fleepix.com/ {{ ansible_lsb.codename }} main' update_cache=yes
