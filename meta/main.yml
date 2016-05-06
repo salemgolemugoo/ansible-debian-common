@@ -2,3 +2,16 @@ dependencies:
     - { role: ANXS.timezone }
     - { role: Stouts.locale }
     - { role: f500.vim }
+
+galaxy_info:
+    author: salemgolemugoo
+    description: Installs base soft for fresh debian installation
+    company: "Fleepix LLC"
+    license: "BSD"
+    min_ansible_version: 1.9
+    platforms:
+        - name: Debian
+          versions:
+          - all
+    galaxy_tags:
+        - debian
